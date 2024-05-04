@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./resources/css/contacts.css">
+        <title>Contacts</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="header-brand">Sound Play</a>
+            <nav>
+                <ul>
+                    <li><a href="soundboard.html">Soundboard</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="form-container">
+                <h1>Contact Us</h1>
+                <form action="/submit_form" method="post">
+                    <div>
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                    </div>
+                    
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    
+                    <div>
+                        <textarea id="message" name="message" placeholder="Message" rows="4" required></textarea>
+                    </div>
+                    
+                    <button id="submit" type="submit">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="image-container">
+                <img src="resources/images/Socials.png" alt="Description of the image">
+            </div>
+        </main>
+        <div class="wrappers">
+            <footer>
+                <ul class="footer-links-main">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="soundboard.html">Soundboard</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+                <div class="footer-socials">
+                    <a href="https://www.youtube.com/@pixelplan-it7129">
+                        <img src="resources/images/Youtube_icon_white.png" alt="Youtube icon">
+                    </a>
+                    <a href="https://www.instagram.com/pixel_planit/">
+                        <img src="resources/images/Instagram_icon_white.png" alt="Instagram icon">
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

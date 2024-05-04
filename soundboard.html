@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./resources/css/soundboard.css">
+        <title>Soundboard</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="header-brand">Sound Play</a>
+            <nav>
+                <ul>
+                    <li><a href="soundboard.html">Soundboard</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+            <button id="darkModeToggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+        </header>
+        
+        <main>
+            <h1>Soundboard</h1>
+        </main>
+        <div id="filterOptions">
+            <label for="ambientCheckbox" class="filter-button">
+                <input type="checkbox" id="ambientCheckbox" value="ambient">
+                <span>Ambient</span>
+            </label>
+            <label for="effectsCheckbox" class="filter-button">
+                <input type="checkbox" id="effectsCheckbox" value="effects">
+                <span>Effects</span>
+            </label>
+            <label for="natureCheckbox" class="filter-button">
+                <input type="checkbox" id="natureCheckbox" value="nature">
+                <span>Nature</span>
+            </label>
+            <label for="creatureCheckbox" class="filter-button">
+                <input type="checkbox" id="creatureCheckbox" value="creature">
+                <span>Creature</span>
+            </label>
+        </div>  
+
+            <div id="soundboard"></div>
+
+            <div class="wrapper">
+                <footer>
+                    <ul class="footer-links-main">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="soundboard.html">Soundboard</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                    <div class="footer-socials">
+                        <a href="https://www.youtube.com/@pixelplan-it7129">
+                            <img src="resources/images/Youtube_icon_white.png" alt="Youtube icon">
+                        </a>
+                        <a href="https://www.instagram.com/pixel_planit/">
+                            <img src="resources/images/Instagram_icon_white.png" alt="Instagram icon">
+                        </a>
+                    </div>
+                </footer>
+            </div>
+    </body>
+    <script src="./scripts/script.js"></script>
+</html>
